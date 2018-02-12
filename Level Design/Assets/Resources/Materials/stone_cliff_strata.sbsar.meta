@@ -1,0 +1,81 @@
+fileFormatVersion: 2
+guid: ea905d5e37aa47d489915db48b6acc1f
+timeCreated: 1518147849
+licenseType: Free
+SubstanceImporter:
+  serializedVersion: 5
+  materialInstances:
+  - serializedVersion: 16
+    name: stone_cliff_strata
+    prototypeName: stone_cliff_strata
+    shaderName: 
+    shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+    shaderKeywords: 
+    renderQueue: -1
+    lightmapFlags: 4
+    inputs: []
+    materialInformation:
+      serializedVersion: 5
+      offset: {x: 0, y: 0}
+      scale: {x: 1, y: 1}
+      generateMipmaps: 1
+      generateAllOutputs: 0
+      animationUpdateRate: 0
+    materialProperties:
+      serializedVersion: 3
+      texEnvs: []
+      floats: []
+      colors: []
+    textureParameters:
+    - name: stone_cliff_strata_basecolor
+      alphaSource: 6
+      filterMode: 1
+      aniso: 1
+      wrapMode: 0
+    - name: stone_cliff_strata_normal
+      alphaSource: 0
+      filterMode: 1
+      aniso: 1
+      wrapMode: 0
+    - name: stone_cliff_strata_metallic
+      alphaSource: 7
+      filterMode: 1
+      aniso: 1
+      wrapMode: 0
+    - name: stone_cliff_strata_ambientocclusion
+      alphaSource: 0
+      filterMode: 1
+      aniso: 1
+      wrapMode: 0
+    - name: stone_cliff_strata_height
+      alphaSource: 0
+      filterMode: 1
+      aniso: 1
+      wrapMode: 0
+    textureAssignments:
+    - shaderProp: _MainTex
+      material: {instanceID: 0}
+      baseUID: 3177755701
+    - shaderProp: _BumpMap
+      material: {instanceID: 0}
+      baseUID: 3177755695
+    - shaderProp: _MetallicGlossMap
+      material: {instanceID: 0}
+      baseUID: 3177755689
+    - shaderProp: _OcclusionMap
+      material: {instanceID: 0}
+      baseUID: 3177756061
+    - shaderProp: _ParallaxMap
+      material: {instanceID: 0}
+      baseUID: 3177756066
+    buildTargetSettings:
+    - serializedVersion: 2
+      buildTarget: 
+      textureWidth: 512
+      textureHeight: 512
+      textureFormat: 0
+      loadingBehavior: 1
+  deletedPrototypes: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
